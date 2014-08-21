@@ -1,0 +1,18 @@
+# Site settings
+title: "Creighton Higgins | Full Stack Engineer"
+email: "chiggins@chiggins.com"
+description: "I'm Creighton Higgins, I do full-stack engineering and development on Perl and Ruby platforms."
+baseurl: "/"
+url: "0.0.0.0:4000"
+
+# twitter_username:
+github_username:  chigginsiii
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+# sass includes
+sass:
+  sass_dir: _sass
