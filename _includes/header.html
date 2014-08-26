@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
+<nav class="navbar navbar-default navbar-static-top" role="navigation" id="navbar-header">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-header-menu">
@@ -7,19 +7,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand"><img src="/images/logo_brand.png"></a>
+      <a href="/"><img src="/images/header_brand_logo.png" id="navbar-header-logo"></a>
     </div>
 
     <div class="navbar-right collapse navbar-collapse" id="navbar-header-menu">
       <ul class="nav navbar-nav">
-	<li><a href="#">HOME</a></li>
-	<li><a href="#">BLOG</a></li>
-	<li><a href="#">RESUME</a></li>
-	<li><a href="#">CONTACT</a></li>
+        <li class="active">
+          <a href="#">HOME</a>
+          <img id="header-navbar-active"  rc="header-nav-active.png">
+        </li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">RESUME</a></li>
+        <li><a href="#">CONTACT</a></li>
       </ul>
     </div>
 
   </div>
 </nav>
-
-    

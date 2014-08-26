@@ -3,5 +3,38 @@
 @import 'custom-vars'
 @import bootstrap
 
+/* customize the navbar a bit */
 
+.navbar-default
+  height: 83px
+  background-image: url("../images/header_background.png")
+  background-repeat: repeat-x
+  border: 0
 
+#navbar-header-logo
+  position: absolute
+  bottom: 24px
+
+.navbar-default .navbar-nav > li
+  position: relative
+  bottom: -40px
+
+.navbar-default .navbar-nav > .active > a
+  &, &:active, &:hover, &:focus
+    background-color: transparent
+
+.navbar-nav > li > a, .navbar-nav > .active > a
+  padding-top: 3px
+  padding-bottom: 0
+  display: inline-block
+  height: 31px
+
+.navbar-nav > .active > a:after
+  background-image: url("../images/header_nav_active.png")
+  height: 10px
+  width: 50px
+  content: ""
+  position: absolute
+  left: 50%
+  margin-left: -25px
+  bottom: 0px
